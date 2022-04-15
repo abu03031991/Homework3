@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Akshar', sans-serif;
+    background: #0da7df;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 200px;
+}
+
+
+.container {
+    width: 1110px;
+    margin: auto;
+}
+
+.box {
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+}
+
+.card {
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-align: center;
+    border-right: 1px solid #e9dede;
+}
+
+.card:nth-child(3) {
+    border: none;
+}
+
+
+img {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+}
+
+h2 {
+    color: #999494;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 20px 0 40px;
+}
+
+
+p {
+    color: #0797f1;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-top: 1px solid #e9dede;   
+}
+
+
+span {
+    display: block;
+    color: #376cea;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 25px 0;
+    border-top: 1px solid #e9dede;
+}
+
+button {
+    border: none;
+    background: transparent;
+    border: 1px solid #3498f7;
+    padding: 15px 35px;
+    color: #3498f7;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    transition: .5s all linear;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+
+button:hover {
+    background-color: #3498f7;
+    color: #ffffff;
+    box-shadow: 0 0 10px #3498f7;
+}
